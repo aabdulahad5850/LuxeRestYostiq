@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<title>LuxeRest</title>
+<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1839/1839375.png" type="image/x-icon">
+</head>
+<body>
+
+<div class="box1">
+<div class="box2">
+<i class="fa-solid fa-cloud-moon box3"></i>
+<div class="box4"></div>
+<span class="box5">LuxeRest Loading...</span>
+</div>
+</div>
+
+<div class="box6">
+<div class="box7">
+<a href="#" class="box8">
+<i class="fa-solid fa-cloud-moon box9"></i>
+<span class="box10">LuxeRest</span>
+</a>
+<div class="box11">
+<a href="#home" class="box12">Bosh sahifa</a>
+<a href="#customizer" class="box13">Konstruktor</a>
+<a href="#about" class="box14">Texnologiya</a>
+<a href="#catalog" class="box15">Katalog</a>
+<a href="#quiz" class="box16">Test</a>
+<a href="#reviews" class="box17">Sharhlar</a>
+<a href="#faq" class="box18">FAQ</a>
+</div>
+<div class="box19">
+<button class="box20" id="openCartBtn">
+<i class="fa-solid fa-cart-shopping box21"></i>
+<span class="box22">0</span>
+</button>
+</div>
+</div>
+</div>
+
+<section id="home" class="box23 reveal-left">
+<div class="box24">
+<div class="box25">
+<div class="box26">
+<i class="fa-solid fa-sparkles box27"></i>
+<span class="box28">Premial Uyqu Ekosistemasi</span>
+</div>
+<h1 class="box29">Mukammal uyqu </h1>
+<p class="box30">Ortopedik arxitektura, xotira ko'pigi va faol sovutish texnologiyasiga ega bo'lgan innovatsion anatomik yostiqlar to'plami. Salomatligingiz va ideal hordig'ingiz uchun.</p>
+<div class="box31">
+<a href="#customizer" class="box32">
+<span class="box33">O'z yostiqingni yarat</span>
+<i class="fa-solid fa-sliders box34"></i>
+</a>
+<button class="box35" id="watchVideoBtn">
+<i class="fa-solid fa-circle-play box36"></i>
+<span class="box37">Videoni ko'rish</span>
+</button>
+</div>
+<div class="box38">
+<div class="box39">
+<span class="box40">15,000+</span>
+<span class="box41">Mamnun mijozlar</span>
+</div>
+<div class="box42"></div>
+<div class="box43">
+<span class="box44">4.9 / 5.0</span>
+<span class="box45">Reyting bahosi</span>
+</div>
+</div>
+</div>
+<div class="box46 reveal-right">
+<div class="box47 card-3d">
+<img src="https://i.pinimg.com/1200x/bb/5a/48/bb5a481de74be2702aea78e4b33fa632.jpg" alt="" class="box48">
+<div class="box49">
+<div class="box50">
+<i class="fa-solid fa-shield-halved box51"></i>
+<div class="box52">
+<span class="box53">10 Yillik Garantiya</span>
+<span class="box54">Shveysariya standarti</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="customizer" class="box55 reveal-bottom">
+<div class="box56">
+<div class="box57">
+<span class="box58">Eksklyuziv Innovatsiya</span>
+<h2 class="box59">Interaktiv Yostiq Konstruktori</h2>
+<p class="box60">O'zingizga mos balandlik, to'ldiruvchi va g'ilof turini tanlang hamda individual yostiqingizni yarating!</p>
+</div>
+<div class="box61">
+<div class="box62">
+<div class="box63" id="pillowStage">
+<div class="box64" id="pillowLayerCore"></div>
+<div class="box65" id="pillowLayerGel"></div>
+<div class="box66" id="pillowLayerCover"></div>
+<div class="box67">
+<span class="box68">Interaktiv 3D Vizualizatsiya</span>
+</div>
+</div>
+<div class="box69">
+<div class="box70">
+<span class="box71">Moslashtirilgan Narx:</span>
+<span class="box72" id="customPillowPrice">450,000 UZS</span>
+</div>
+<button class="box73" id="addCustomToCartBtn">
+<i class="fa-solid fa-bag-shopping box74"></i>
+<span class="box75">Savatga qo'shish</span>
+</button>
+</div>
+</div>
+<div class="box76">
+<div class="box77">
+<h4 class="box78">1. Yostiq balandligi va qattiqligi</h4>
+<div class="box79" id="heightOptions">
+<button class="box80 active" data-height="low" data-add="0">Pashak (8 cm)</button>
+<button class="box80" data-height="medium" data-add="30000">Standart (11 cm)</button>
+<button class="box80" data-height="high" data-add="50000">Baland (14 cm)</button>
+</div>
+</div>
+<div class="box77">
+<h4 class="box78">2. Ichki to'ldiruvchi (Qatlam)</h4>
+<div class="box79" id="fillOptions">
+<button class="box80 active" data-fill="memory" data-add="0">Memory Foam</button>
+<button class="box80" data-fill="gel" data-add="70000">Cooling Hydro-Gel</button>
+<button class="box80" data-fill="latex" data-add="100000">Natural Latex</button>
+</div>
+</div>
+<div class="box77">
+<h4 class="box78">3. Tashqi g'ilof matosi</h4>
+<div class="box79" id="coverOptions">
+<button class="box80 active" data-cover="bamboo" data-add="0">Bambuk Organik</button>
+<button class="box80" data-cover="silk" data-add="90000">Premial Ipak</button>
+<button class="box80" data-cover="cotton" data-add="20000">Paxta Saten</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="box81 reveal-bottom">
+<div class="box82">
+<div class="box83 card-3d">
+<i class="fa-solid fa-truck-fast box84"></i>
+<div class="box85">
+<h4 class="box86">Bepul yetkazib berish</h4>
+<p class="box87">O'zbekiston bo'ylab 24 soat ichida</p>
+</div>
+</div>
+<div class="box88 card-3d">
+<i class="fa-solid fa-rotate-left box89"></i>
+<div class="box90">
+<h4 class="box91">30 Kunlik Sinov</h4>
+<p class="box92">Yoqmasa pulingiz qaytariladi</p>
+</div>
+</div>
+<div class="box93 card-3d">
+<i class="fa-solid fa-certificate box94"></i>
+<div class="box95">
+<h4 class="box96">Sertifikatlangan</h4>
+<p class="box97">100% Gipoallergen materiallar</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="about" class="box98 reveal-left">
+<div class="box99">
+<div class="box100">
+<span class="box101">Innovatsion Tuzilish</span>
+<h2 class="box102">Har bir qatlamda mukammallik</h2>
+<p class="box103">Oddiy yostiqlardan farqli o'laroq, LuxeRest yostiqlari umurtqangizni ideal to'g'ri chiziqda tutadi va qon aylanishini 35% ga yaxshilaydi.</p>
+</div>
+<div class="box104">
+<div class="box105 card-3d">
+<i class="fa-solid fa-brain box106"></i>
+<h3 class="box107">Memory Foam 2.0</h3>
+<p class="box108">Bosimni teng taqsimlaydi, bo'yin mushaklaridagi zo'riqishni darhol oladi.</p>
+</div>
+<div class="box109 card-3d">
+<i class="fa-solid fa-temperature-arrow-down box110"></i>
+<h3 class="box111">Hydro-Gel Layer</h3>
+<p class="box112">Tana haroratini 2 darajaga pasaytiradi va tun bo me'yorda tutadi.</p>
+</div>
+<div class="box113 card-3d">
+<i class="fa-solid fa-leaf box114"></i>
+<h3 class="box115">Bambu Fiber Cover</h3>
+<p class="box116">Nafas oluvchi, antibakterial va oson yuviluvchi zamburug'ga qarshi g'ilof.</p>
+</div>
+<div class="box117 card-3d">
+<i class="fa-solid fa-lungs box118"></i>
+<h3 class="box119">AirFlow Channel</h3>
+<p class="box120">Ichki havo aylanish kanallari shamollatishni maksimal darajaga etkazadi.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="catalog" class="box121 reveal-bottom">
+<div class="box122">
+<div class="box123">
+<span class="box124">Mahsulotlarimiz</span>
+<h2 class="box125">Eksklyuziv Yostiqlar Kolleksiyasi</h2>
+<p class="box126">Uyqu tarzingiz va shaxsiy ehtiyojlaringiz uchun maxsus loyihalashtirilgan modellari</p>
+</div>
+<div class="box127">
+<div class="box128 card-3d">
+<div class="box129">
+<img src="https://i.pinimg.com/1200x/44/5e/c3/445ec331eb870e7c523254e2f5773346.jpg" alt="" class="box130">
+<span class="box131">TOP SOTUV</span>
+</div>
+<div class="box132">
+<h3 class="box133">Ergo Memory Pro</h3>
+<p class="box134">Bo'yin va yelka og'riqlaridan xalos etuvchi anatomik ergo-shakl.</p>
+<div class="box135">
+<span class="box136">450,000 UZS</span>
+<button class="box137" data-name="Ergo Memory Pro" data-price="450000">
+<i class="fa-solid fa-bag-shopping box138"></i>
+<span class="box139">Sotib olish</span>
+</button>
+</div>
+</div>
+</div>
+<div class="box140 card-3d">
+<div class="box141">
+<img src="https://i.pinimg.com/1200x/1d/87/5f/1d875fa7248e166552ba51e3d52296d3.jpg" alt="" class="box142">
+<span class="box143">COOLING EFFECT</span>
+</div>
+<div class="box144">
+<h3 class="box145">Aqua Cool Gel Max</h3>
+<p class="box146">Issiq kunlar va ko'p terlaydiganlar uchun sovutuvchi gidrogelli yozgi yostiq.</p>
+<div class="box147">
+<span class="box148">520,000 UZS</span>
+<button class="box149" data-name="Aqua Cool Gel Max" data-price="520000">
+<i class="fa-solid fa-bag-shopping box150"></i>
+<span class="box151">Sotib olish</span>
+</button>
+</div>
+</div>
+</div>
+<div class="box152 card-3d">
+<div class="box153">
+<img src="https://i.pinimg.com/1200x/4f/fa/3f/4ffa3f8d1f679045c16ddcfc9f101ff5.jpg" alt="" class="box154">
+<span class="box155">PREMIUM SILK</span>
+</div>
+<div class="box156">
+<h3 class="box157">Silk Cloud Organic</h3>
+<p class="box158">Tabiiy ipak va gipoallergen bambuk tolasidan tayyorlangan lyuks model.</p>
+<div class="box159">
+<span class="box160">610,000 UZS</span>
+<button class="box161" data-name="Silk Cloud Organic" data-price="610000">
+<i class="fa-solid fa-bag-shopping box162"></i>
+<span class="box163">Sotib olish</span>
+</button>
+</div>
+</div>
+</div>
+<div class="box164 card-3d">
+<div class="box165">
+<img src="https://i.pinimg.com/1200x/ff/d6/b9/ffd6b9b0c92caa8b581aaeea1a6d4967.jpg" alt="" class="box166">
+<span class="box167">TRAVEL EDITION</span>
+</div>
+<div class="box168">
+<h3 class="box169">Travel Rest Compact</h3>
+<p class="box170">Samolyot, mashina va uzoq yo'llar uchun ixcham va qulay ortopedik yostiq.</p>
+<div class="box171">
+<span class="box172">340,000 UZS</span>
+<button class="box173" data-name="Travel Rest Compact" data-price="340000">
+<i class="fa-solid fa-bag-shopping box174"></i>
+<span class="box175">Sotib olish</span>
+</button>
+</div>
+</div>
+</div>
+<div class="box176 card-3d">
+<div class="box177">
+<img src="https://i.pinimg.com/736x/40/77/57/407757374ce3492a86990098d3d9848c.jpg" alt="" class="box178">
+<span class="box179">KIDS CARE</span>
+</div>
+<div class="box180">
+<h3 class="box181">Junior Ortho Sleep</h3>
+<p class="box182">Bolalar umurtqasining to'g'ri rivojlanishi uchun maxsus o'lchamdagi yostiq.</p>
+<div class="box183">
+<span class="box184">390,000 UZS</span>
+<button class="box185" data-name="Junior Ortho Sleep" data-price="390000">
+<i class="fa-solid fa-bag-shopping box186"></i>
+<span class="box187">Sotib olish</span>
+</button>
+</div>
+</div>
+</div>
+<div class="box188 card-3d">
+<div class="box189">
+<img src="https://i.pinimg.com/1200x/e0/87/c7/e087c74d0f968a94e6ad134d36afb1b0.jpg" alt="" class="box190">
+<span class="box191">ANTI-SNORE</span>
+</div>
+<div class="box192">
+<h3 class="box193">Silent Night Pro</h3>
+<p class="box194">Xurrak otishga qarshi burchakli va havo yo'llarini ochib beruvchi maxsus forma.</p>
+<div class="box195">
+<span class="box196">580,000 UZS</span>
+<button class="box197" data-name="Silent Night Pro" data-price="580000">
+<i class="fa-solid fa-bag-shopping box198"></i>
+<span class="box199">Sotib olish</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="quiz" class="box200 reveal-bottom">
+<div class="box201">
+<div class="box202">
+<span class="box203">Aqlli Tanlov</span>
+<h2 class="box204">Sizga qaysi yostiq mos keladi?</h2>
+<p class="box205">Atigi 2 ta savolga javob bering va o'zingiz uchun ideal modelni toping!</p>
+<div class="box206">
+<div class="box207">
+<h4 class="box208">1. Qaysi holatda uxlashni yoqtirasiz?</h4>
+<div class="box209">
+<button class="box210" data-pos="side">Yonda (yonboshlab)</button>
+<button class="box211" data-pos="back">Chalqanchasiga</button>
+<button class="box212" data-pos="stomach">Qorinda</button>
+</div>
+</div>
+<div class="box213">
+<h4 class="box214">2. Uyqu vaqtidagi eng katta muammoingiz?</h4>
+<div class="box215">
+<button class="box216" data-prob="neck">Bo'yin va yelka og'rig'i</button>
+<button class="box217" data-prob="heat">Issiqlab terlash</button>
+<button class="box218" data-prob="snore">Xurrak otish</button>
+</div>
+</div>
+<button class="box219" id="getQuizResult">
+<span class="box220">Tavsiyani olish</span>
+<i class="fa-solid fa-wand-magic-sparkles box221"></i>
+</button>
+<div class="box222" id="quizResultBox"></div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="box223 reveal-left">
+<div class="box224">
+<div class="box225">
+<span class="box226">Taqqoslang</span>
+<h2 class="box227">Oddiy yostiq vs LuxeRest</h2>
+</div>
+<div class="box228">
+<div class="box229 card-3d">
+<h3 class="box230">Oddiy Paxta Yostiqlar</h3>
+<ul class="box231">
+<li class="box232"><i class="fa-solid fa-xmark box233"></i> Vaqt o'tishi bilan shaklini yoqotadi</li>
+<li class="box234"><i class="fa-solid fa-xmark box235"></i> Bo'yinni noto'g'ri burchakda tutadi</li>
+<li class="box236"><i class="fa-solid fa-xmark box237"></i> Chang va kana to'playdi</li>
+<li class="box238"><i class="fa-solid fa-xmark box239"></i> Tunda issiqlab terlatadi</li>
+</ul>
+</div>
+<div class="box240 card-3d">
+<h3 class="box241">LuxeRest Ortopedik Yostiq</h3>
+<ul class="box242">
+<li class="box243"><i class="fa-solid fa-check box244"></i> 10 yil davomida shaklini saqlaydi</li>
+<li class="box245"><i class="fa-solid fa-check box246"></i> Umurtqani to'g'ri anatomik liniyada ushlaydi</li>
+<li class="box247"><i class="fa-solid fa-check box248"></i> Anti-bakterial va gipoallergen</li>
+<li class="box249"><i class="fa-solid fa-check box250"></i> Hydro-Gel tufayli salqinlik beradi</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+<section id="reviews" class="box251 reveal-right">
+<div class="box252">
+<div class="box253">
+<span class="box254">Fikrlar</span>
+<h2 class="box255">Mijozlarimizning Natijalari</h2>
+</div>
+<div class="box256">
+<div class="box257 card-3d">
+<div class="box258">
+<i class="fa-solid fa-star box259"></i>
+<i class="fa-solid fa-star box260"></i>
+<i class="fa-solid fa-star box261"></i>
+<i class="fa-solid fa-star box262"></i>
+<i class="fa-solid fa-star box263"></i>
+</div>
+<p class="box264">Necha yildan beri ertalab bo me'yorsiz bo'yin og'rig'i bilan uyg'onardim. Ergo Memory Pro ni olganimdan keyin 3 kunda og'riqlar mutlaqo yo'qoldi!</p>
+<div class="box265">
+<span class="box266">Jasur Rahimov</span>
+<span class="box267">IT Dasturchi</span>
+</div>
+</div>
+<div class="box268 card-3d">
+<div class="box269">
+<i class="fa-solid fa-star box270"></i>
+<i class="fa-solid fa-star box271"></i>
+<i class="fa-solid fa-star box272"></i>
+<i class="fa-solid fa-star box273"></i>
+<i class="fa-solid fa-star box274"></i>
+</div>
+<p class="box275">Aqua Cool Gel yostiq yozda ayni muddao ekan. Ilgari tunda necha marta yostiqni agdarib uxlardim, hozir esa bir tekis muzdek uxlaysiz.</p>
+<div class="box276">
+<span class="box277">Malika Umarova</span>
+<span class="box278">Dizayner</span>
+</div>
+</div>
+<div class="box279 card-3d">
+<div class="box280">
+<i class="fa-solid fa-star box281"></i>
+<i class="fa-solid fa-star box282"></i>
+<i class="fa-solid fa-star box283"></i>
+<i class="fa-solid fa-star box284"></i>
+<i class="fa-solid fa-star box285"></i>
+</div>
+<p class="box286">Yetkazib berish juda tez sodir bo'ldi. Sifati va qadog'i juda qimmatbaho brendlarnikidan qolishmaydi. Tavsiya qilaman!</p>
+<div class="box287">
+<span class="box288">Sardor Azimov</span>
+<span class="box289">Tadbirkor</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="faq" class="box290 reveal-bottom">
+<div class="box291">
+<div class="box292">
+<span class="box293">Savol-Javob</span>
+<h2 class="box294">Ko'p beriladigan savollar</h2>
+</div>
+<div class="box295">
+<div class="box296">
+<div class="box297">
+<span class="box298">Yostiqni yuvsa bo'ladimi?</span>
+<i class="fa-solid fa-chevron-down box299"></i>
+</div>
+<div class="box300">
+<p class="box301">Yostiqning tashqi bamuk g'ilofini kir yuvish mashinasida yuvishingiz mumkin. Ichki xotira ko'pigi (Memory Foam)ni esa shamollatib turish yetarli.</p>
+</div>
+</div>
+<div class="box302">
+<div class="box303">
+<span class="box304">Moslashish uchun qancha vaqt ketadi?</span>
+<i class="fa-solid fa-chevron-down box305"></i>
+</div>
+<div class="box306">
+<p class="box307">Odatda tanangiz yangi ortopedik tayanchga 2-5 kun ichida to'liq moslashadi va shundan so'ng optimal qulaylikni his qilasiz.</p>
+</div>
+</div>
+<div class="box308">
+<div class="box309">
+<span class="box310">Kafolat shartlari qanday?</span>
+<i class="fa-solid fa-chevron-down box311"></i>
+</div>
+<div class="box312">
+<p class="box313">Biz har bir yostiq uchun 10 yillik rasmiy kafolat beramiz. Agar shakli deformatsiyaga uchrasa, almashtirib beramiz.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="box314 reveal-bottom">
+<div class="box315">
+<div class="box316">
+<h2 class="box317">Bugun buyurtma bering va 20% chegirmaga ega bo'ling!</h2>
+<p class="box318">Aksiya tugashiga oz vaqt qoldi. O'zingiz va yaqinlaringizga sog'lom uyqu ulashing.</p>
+<button class="box319" id="checkoutBtn">
+<span class="box320">Chegirma bilan olish</span>
+<i class="fa-solid fa-fire box321"></i>
+</button>
+</div>
+</div>
+</section>
+
+<footer class="box322">
+<div class="box323">
+<div class="box324">
+<div class="box325">
+<a href="#" class="box326">
+<i class="fa-solid fa-cloud-moon box327"></i>
+<span class="box328">LuxeRest</span>
+</a>
+<p class="box329">Sog'lom uyqu va anatomik hordiq uchun O'zbekistondagi №1 brend.</p>
+</div>
+<div class="box330">
+<h4 class="box331">Linklar</h4>
+<a href="#home" class="box332">Bosh sahifa</a>
+<a href="#customizer" class="box333">Konstruktor</a>
+<a href="#catalog" class="box334">Katalog</a>
+</div>
+<div class="box335">
+<h4 class="box336">Aloqa</h4>
+<span class="box337">+998 (33) 275-58-50</span>
+<span class="box338">aakhathanov@gmail.com</span>
+<span class="box339">Namangan Oromgoh</span>
+</div>
+</div>
+<div class="box340">
+<span class="box341">@ 2026 Akhathanov.</span>
+</div>
+</div>
+</footer>
+
+<div class="box342" id="cartModal">
+<div class="box343">
+<div class="box344">
+<h3 class="box345">Xarid Savatchasi</h3>
+<button class="box346" id="closeCartBtn">@</button>
+</div>
+<div class="box347" id="cartItemsContainer">
+<p class="box348">Savatchangiz bo'sh</p>
+</div>
+<div class="box349">
+<div class="box350">
+<span class="box351">Jami:</span>
+<span class="box352" id="cartTotalPrice">0 UZS</span>
+</div>
+<button class="box353" id="cartCheckoutBtn">Buyurtma qilish</button>
+</div>
+</div>
+</div>
+
+<div class="box354" id="videoModal">
+<div class="box355">
+<button class="box356" id="closeVideoBtn">@</button>
+<div class="box357">
+<i class="fa-solid fa-circle-play box358"></i>
+<p class="box359">LuxeRest taqdimot videosi tayyorlanmoqda...</p>
+</div>
+</div>
+</div>
+
+<div class="box360" id="orderModal">
+<div class="box361">
+<div class="box362">
+<h3 class="box363">Buyurtmani rasmiylashtirish</h3>
+<button class="box364" id="closeOrderBtn">@</button>
+</div>
+<form class="box365" id="orderForm">
+<div class="box366">
+<label class="box367">Ismingiz</label>
+<input type="text" class="box368" required placeholder="Ismingizni kiriting">
+</div>
+<div class="box369">
+<label class="box370">Telefon raqamingiz</label>
+<input type="tel" class="box371" required placeholder="+998 33 275 58 50">
+</div>
+<button type="submit" class="box372" id="submitOrderBtn">Tasdiqlash</button>
+</form>
+</div>
+</div>
+
+<div class="box373" id="toast">
+<i class="fa-solid fa-circle-check box374"></i>
+<span class="box375" id="toastMessage">Amal bajarildi!</span>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
